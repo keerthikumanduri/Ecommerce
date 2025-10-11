@@ -1,12 +1,13 @@
 import { HomePage } from "./pages/HomePage";
 import { Route, Routes } from "react-router";
 import "./App.css";
+import { CheckoutPage } from "./pages/CheckoutPage";
 
 function App() {
   return (
     <Routes>
       <Route index element={<HomePage />} />
-      <Route path="/checkout" element={<Checkout />} />
+      <Route path="/checkout" element={<CheckoutPage />} />
     </Routes>
   );
 }
