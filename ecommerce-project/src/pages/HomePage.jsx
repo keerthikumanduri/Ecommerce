@@ -1,9 +1,10 @@
-import "./HomePage.css";
 import { Header } from "../components/Header";
+import "./HomePage.css";
+
 export function HomePage() {
   return (
     <>
-      <title>Ecommerce</title>
+      <title>Ecommerce Project</title>
 
       <Header />
 
